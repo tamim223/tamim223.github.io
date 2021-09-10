@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tamim Portfilio Website</title> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/26604f5e69.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="img/Logo.svg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href=#home class="nav__link">home</a></li>
+                    <li class="nav__item"><a href=#services class="nav__link">services</a></li>
+                    <li class="nav__item"><a href=#about class="nav__link">about</a></li>
+                    <li class="nav__item"><a href=#work class="nav__link">works</a></li>
+                   
+                </ul>
+            </nav>
+        </header>
+
+        <!-- introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hey there, I am <strong>Tamim Iqbal</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">aka Da Meme,&nbsp;&nbsp;&nbsp; Engineer & Designer &nbsp;&nbsp;&nbsp;</p>
+            <img src="img/cover.png" alt="" class="intro__img"> 
+        </section>
+
+        <!-- my services-->
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>UI/UX Designer</h3>
+                    <p>I can desing UI of both web and mobile platforms, create wireframes, make low to high fidelity mockups and prototype. 
+                        My favourite tools for designing are Figma and Photoshop.
+                    </p>
+                </div> 
+                <div class="service">
+                    <h3>Web Developer</h3>
+                    <p>Frontend developer with knowlege of HTML,CSS and Javascript. 
+                        Right now in a learning phase but I aspire to get better and know more about it by doing projects that interest me.</p>
+                </div>
+                <div class="service">
+                    <h3>Software Engineer</h3>
+                    <p>As a student of computer science engineering, Software Engineering comes by default.</p>
+                </div>
+            </div>
+            <a href=#work class="btn">my works</a>
+            <!-- /services -->
+            
+        </section>
+
+        <!-- About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Engineer & Designer from Kolkata  </p>
+            <div class="about--me__body">
+                <p>I am a computer enthusiast with a keen interest in problem solving, 
+                    implementing new ideas, and designing.</p>
+                <p></p>
+            </div>
+
+            <img src="img/Tamim.jpg" alt="" class="about-me__img">
+        </section>
+
+        <!-- My work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title--work">My works</h2>
+            <p class="section__subtitle--work">Some of my works</p>
+            
+            <div class="portfolio">
+                <!--portfolio item-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Aurora_2.png" alt="" class="protfolio__img">
+                </a>
+                <!--portfolio item-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Nier.png" alt="" class="protfolio__img">
+                </a>
+                <!--portfolio item-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Beach.png" alt="" class="protfolio__img">
+                </a>
+                <!--portfolio item-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Scaredkitten.png" alt="" class="protfolio__img">
+                </a>
+                <!--portfolio item-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Winter Scene Study.png" alt="" class="protfolio__img">
+                </a>
+                <!--portfolio item-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Out in the flower.png" alt="" class="protfolio__img">
+                </a>
+                <!--portfolio item-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Stuck in mars.png" alt="" class="protfolio__img">
+                </a>
+                <!--portfolio item-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Replicant.png" alt="" class="protfolio__img">
+                </a>
+                <!--portfolio item-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Five.png" alt="" class="protfolio__img">
+                </a>
+            </div>
+            
+        </section>
+
+        <!--footer-->
+        <footer class="footer">
+            <a href="mailto:i.am.tamim22@gmail.com" class="footer-link">i.am.tamim22@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="https://www.instagram.com/ezio.22/" class="social-list__link">
+                        <i class="fab fa-instagram" style="color: #3AA7A0;"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://github.com/tamim223" class="social-list__link">
+                        <i class="fab fa-github" style="color: #3AA7A0;"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/tamim-iqbal-b0bb751a2/" class="social-list__link">
+                        <i class="fab fa-linkedin" style="color: #3AA7A0;"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
